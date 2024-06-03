@@ -26,7 +26,8 @@ namespace łóóóóóó
             waluty zloty = new waluty(1, "zloty");
             waluty euro = new waluty(4.5, "euro");
             waluty frank = new waluty(5, "frank");
-            waluty dolar = new waluty(4.3, "dolar");
+            waluty dolar = new waluty(4.3, "dolar")
+                //elo
 
             switch (waluta2)
             {
