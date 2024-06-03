@@ -73,7 +73,7 @@ namespace łóóóóóó
             if (username.Length == 0 || username.Any(char.IsDigit))
             {
                 Console.WriteLine("Nieprawidłowa nazwa użytkownika. Nazwa użytkownika nie może zawierać cyfr.");
-                // elo
+                
                 return false;
             }
 
@@ -85,7 +85,7 @@ namespace łóóóóóó
             if (password.Length < 5)
             {
                 Console.WriteLine("Nieprawidłowe hasło. Hasło musi mieć co najmniej 5 znaków.");
-                // elo2
+                
                 return false;
             }
 
